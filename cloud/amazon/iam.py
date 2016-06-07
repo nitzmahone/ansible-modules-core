@@ -58,13 +58,13 @@ options:
       - The inline (JSON or YAML) trust policy document that grants an entity permission to assume the role. Mutually exclusive with C(trust_policy_filepath).
     required: false
     default: null
-    version_added: "2.1"
+    version_added: "2.2"
   trust_policy_filepath:
     description:
       - The path to the trust policy document that grants an entity permission to assume the role. Mutually exclusive with C(trust_policy).
     required: false
     default: null
-    version_added: "2.1"
+    version_added: "2.2"
   access_key_state:
     description:
       - When type is user, it creates, removes, deactivates or activates a user's access key(s). Note that actions apply only to keys specified.
